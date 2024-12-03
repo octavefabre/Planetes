@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    
+ 
+    
 }
 
 .menu-container{
     background-color: #1B2430;
 }
-
+ 
 header .menu-container div{
     max-width: 1200px;
     margin: auto;
@@ -14,7 +17,7 @@ header .menu-container div{
     justify-content: space-between;
     align-items: center;
     padding-left: 16px;
-
+    
 }
 header nav ul{
     display: flex;
@@ -87,6 +90,44 @@ article {
     margin-bottom: 8px;
 }
 
-.affichage{
+#affichage{
+    display: flex;
    flex-direction: row-reverse;
+}
+#affichage2{
+    display: flex;
+   flex-direction: row-reverse;
+}
+#affichage3{
+    display: flex;
+   flex-direction: row-reverse;
+}
+#affichage4{
+    display: flex;
+   flex-direction: row-reverse;
+}
+#asteroide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#asteroide{
+
+    height: 2px; 
+    background-color:#1B2430; 
+}
+
+#asteroide{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B2430;
+    color: white;
 }
